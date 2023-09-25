@@ -17,7 +17,7 @@ An API built with Django Rest Framework to manage and query a product inventory.
   - [Installation using virtualenv and pip](#installation-using-virtualenv-and-pip)
   - [Installation using docker-compose](#installation-using-docker-compose)
   - [Installation using Docker alone (without docker-compose)](#installation-using-docker-alone-without-docker-compose)
-- [🧪Testing the API](#🧪testing-the-api)
+- [🧪Testing the API](#testing-the-api)
   - [Testing in a Pipenv Environment](#testing-in-a-pipenv-environment)
   - [Testing in a Poetry Environment](#testing-in-a-poetry-environment)
   - [Testing in a virtualenv Environment](#testing-in-a-virtualenv-environment)
