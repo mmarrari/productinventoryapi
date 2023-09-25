@@ -7,7 +7,7 @@ An API built with Django Rest Framework to manage and query a product inventory.
 - [📝Description](#📝description)
 - [🛠Technologies Used](#🛠technologies-used)
 - [📊System Sequence Diagram](#📊system-sequence-diagram)
-- [🔍Usage](#🔍usage)
+- [🔍Usage](#usage)
   - [Query Parameters](#query-parameters)
   - [Examples of Requests](#examples-of-requests)
 - [🚀Setup and Installation](#🚀setup-and-installation)
