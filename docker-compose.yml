@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - DJANGO_ADMIN_USER=${DJANGO_ADMIN_USER:-admindj}
+      - DJANGO_ADMIN_PASS=${DJANGO_ADMIN_PASS:-passdj}
+    ports:
+      - "8000:8000"

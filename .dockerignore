@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+*.sqlite3
+*.sqlite3-journal
+
+# IDE/editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Virtual environments
+venv/
+*.venv/
+env/
+*.env/
+
+# Package management files
+# We won't use poetry or pipenv
+Pipfile
+Pipfile.lock
+poetry.lock
+pyproject.toml
+
+# Other
+*.egg-info/
+dist/
+build/
+*.egg
+*.tar.gz
+*.bz2
+
+# System specific files and folders
+.DS_Store
+ehthumbs.db
+Thumbs.db

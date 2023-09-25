@@ -1,0 +1,172 @@
+[
+    {
+        "model": "product_service.product",
+        "pk": 1,
+        "fields": {
+            "name": "Laptop Pro",
+            "description": "High-performance laptop with 16GB RAM.",
+            "price": "999.99",
+            "quantity": 50,
+            "category": "Electronics"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 2,
+        "fields": {
+            "name": "Smartphone Max",
+            "description": "6.5-inch display with three cameras.",
+            "price": "799.99",
+            "quantity": 40,
+            "category": "Electronics"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 3,
+        "fields": {
+            "name": "Wireless Earbuds",
+            "description": "Experience music with crystal clear sound.",
+            "price": "59.99",
+            "quantity": 100,
+            "category": "Electronics"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 4,
+        "fields": {
+            "name": "LED TV 50-inch",
+            "description": "High-definition television with smart features.",
+            "price": "450.00",
+            "quantity": 25,
+            "category": "Electronics"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 5,
+        "fields": {
+            "name": "Gaming Mouse",
+            "description": "RGB mouse with precision laser tracking.",
+            "price": "49.99",
+            "quantity": 60,
+            "category": "Electronics"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 6,
+        "fields": {
+            "name": "Graphic Tee",
+            "description": "100% cotton T-shirt with cool prints.",
+            "price": "14.99",
+            "quantity": 100,
+            "category": "Clothing"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 7,
+        "fields": {
+            "name": "Blue Jeans",
+            "description": "Classic fit jeans for everyday wear.",
+            "price": "49.99",
+            "quantity": 75,
+            "category": "Clothing"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 8,
+        "fields": {
+            "name": "Leather Jacket",
+            "description": "Stylish jacket made from genuine leather.",
+            "price": "120.00",
+            "quantity": 30,
+            "category": "Clothing"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 9,
+        "fields": {
+            "name": "Running Shoes",
+            "description": "Breathable shoes perfect for running.",
+            "price": "65.00",
+            "quantity": 90,
+            "category": "Clothing"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 10,
+        "fields": {
+            "name": "Woolen Sweater",
+            "description": "Warm sweater for cold seasons.",
+            "price": "45.00",
+            "quantity": 70,
+            "category": "Clothing"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 11,
+        "fields": {
+            "name": "Organic Cookies",
+            "description": "Delicious cookies made from organic ingredients.",
+            "price": "5.99",
+            "quantity": 200,
+            "category": "Food"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 12,
+        "fields": {
+            "name": "Brown Bread",
+            "description": "Whole wheat brown bread.",
+            "price": "2.50",
+            "quantity": 120,
+            "category": "Food"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 13,
+        "fields": {
+            "name": "Veggie Chips",
+            "description": "A healthy alternative to potato chips.",
+            "price": "4.50",
+            "quantity": 150,
+            "category": "Food"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 14,
+        "fields": {
+            "name": "Pasta",
+            "description": "Italian-style penne pasta.",
+            "price": "1.99",
+            "quantity": 80,
+            "category": "Food"
+        }
+    },
+    {
+        "model": "product_service.product",
+        "pk": 15,
+        "fields": {
+            "name": "Orange Juice",
+            "description": "100% natural orange juice without added sugars.",
+            "price": "3.50",
+            "quantity": 140,
+            "category": "Food"
+        }
+    }
+]    
+    
+    
+    
+    
+    
