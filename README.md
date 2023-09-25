@@ -4,13 +4,13 @@ An API built with Django Rest Framework to manage and query a product inventory.
 
 ## 📚Table of Contents
 
-- [📝Description](#📝description)
-- [🛠Technologies Used](#🛠technologies-used)
-- [📊System Sequence Diagram](#📊system-sequence-diagram)
+- [📝Description](#description)
+- [🛠Technologies Used](#technologies-used)
+- [📊System Sequence Diagram](#system-sequence-diagram)
 - [🔍Usage](#usage)
   - [Query Parameters](#query-parameters)
   - [Examples of Requests](#examples-of-requests)
-- [🚀Setup and Installation](#🚀setup-and-installation)
+- [🚀Setup and Installation](#setup-and-installation)
   - [Setting Environment Variables (Optional)](#setting-environment-variables-optional)
   - [Installation using Pipenv](#installation-using-pipenv)
   - [Installation using Poetry](#installation-using-poetry)
@@ -23,7 +23,7 @@ An API built with Django Rest Framework to manage and query a product inventory.
   - [Testing in a virtualenv Environment](#testing-in-a-virtualenv-environment)
   - [Testing in a docker-compose Environment](#testing-in-a-docker-compose-environment)
   - [Testing in a Docker Environment (without docker-compose)](#testing-in-a-docker-environment-without-docker-compose)
-- [🔗Useful Links](#🔗useful-links)
+- [🔗Useful Links](#useful-links)
 
 
 ## 📝Description
