@@ -2,35 +2,35 @@
 
 An API built with Django Rest Framework to manage and query a product inventory.
 
-## Table of Contents
+## 📚Table of Contents
 
-- [Description](#description)
-- [Technologies Used](#technologies-used)
-- [System Sequence Diagram](#system-sequence-diagram)
-- [Usage](#usage)
+- [📝Description](#📝description)
+- [🛠Technologies Used](#🛠technologies-used)
+- [📊System Sequence Diagram](#📊system-sequence-diagram)
+- [🔍Usage](#🔍usage)
   - [Query Parameters](#query-parameters)
   - [Examples of Requests](#examples-of-requests)
-- [Setup and Installation](#setup-and-installation)
+- [🚀Setup and Installation](#🚀setup-and-installation)
   - [Setting Environment Variables (Optional)](#setting-environment-variables-optional)
   - [Installation using Pipenv](#installation-using-pipenv)
   - [Installation using Poetry](#installation-using-poetry)
   - [Installation using virtualenv and pip](#installation-using-virtualenv-and-pip)
   - [Installation using docker-compose](#installation-using-docker-compose)
   - [Installation using Docker alone (without docker-compose)](#installation-using-docker-alone-without-docker-compose)
-- [Testing the API](#testing-the-api)
+- [🧪Testing the API](#🧪testing-the-api)
   - [Testing in a Pipenv Environment](#testing-in-a-pipenv-environment)
   - [Testing in a Poetry Environment](#testing-in-a-poetry-environment)
   - [Testing in a virtualenv Environment](#testing-in-a-virtualenv-environment)
   - [Testing in a docker-compose Environment](#testing-in-a-docker-compose-environment)
   - [Testing in a Docker Environment (without docker-compose)](#testing-in-a-docker-environment-without-docker-compose)
-- [Useful Links](#useful-links)
+- [🔗Useful Links](#🔗useful-links)
 
 
-## Description
+## 📝Description
 
 The Product Inventory API allows users to query products based on various search parameters. Whether you're looking for products by name, price range, or category, our API delivers fast and accurate results.
 
-## Technologies Used
+## 🛠Technologies Used
 
 - **Programming Language**: Python 3.x
 - **Web Framework**: Django 4.x
@@ -38,13 +38,13 @@ The Product Inventory API allows users to query products based on various search
 - **Database**: SQLite
 
 
-## System Sequence Diagram
+## 📊System Sequence Diagram
 
 Below is a sequence diagram that illustrates the communication process between the client making a GET request, the Django server, and the SQLite database. This visual representation provides a clear overview of how different components interact during a typical query to our API.
 
 ![sequence](./images/django-sequence.svg)
 
-## Usage
+## 🔍Usage
 Users can fetch a list of products based on various filter criteria, ensuring that the returned data is both relevant and concise.
 Endpoint:
 ```http
@@ -86,7 +86,7 @@ To fetch the second page of products in the "Clothing" category with names conta
 GET /products/?name=shirt&min_price=10&max_price=1000&category=Clothing&page=2&page_size=5
 ```
 
-## Setup and Installation
+## 🚀Setup and Installation
 Before starting the installation process with your preferred package manager, you have the option to configure certain environment variables. However, setting these environment variables is not mandatory. If you choose not to set them, default values will be used.
 
 ### Setting Environment Variables (Optional)
@@ -193,7 +193,7 @@ and the image
 docker rmi web
 ```
 
-## Testing the API
+## 🧪Testing the API
 Below are the instructions to run tests for the Product Inventory API across various environments and setups.
 
 ### Testing in a Pipenv Environment
@@ -222,7 +222,7 @@ If you're using Docker standalone, first make sure your container is up and runn
 docker exec -it web python manage.py test product_service
 ```
 
-## Useful Links
+## 🔗Useful Links
 Here is a collection of helpful links related to the tools and technologies used in this API:
 
 - **Poetry**: A tool for dependency management and packaging in Python.
